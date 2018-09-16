@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+body {
+    background-color: lightgrey;
+}
+header {
+    /*background-color: #797a7c;*/
+    /*border: solid #797a7c;*/
+    position: relative;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height:300px;
+    
+}
+#heroImg{
+    background-image: url("Coding.jpeg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.377);
+}
+
+#nav-bar-container {
+    display: inline-grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    grid-column-gap:4px;
+    max-width:inherit;
+    width:300px;
+    height: auto;
+    text-align: center;
+    float:right;
+    padding-top: 10px;
+    /*background-color: blue;*/
+   
+    
+}
+#nav-grid {
+    font-family: 'Sawarabi Mincho',Arial;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    height:auto;
+    /*background-color:red;*/
+}
+    #nav-grid:hover {
+        position: relative;
+        /*box-shadow:3px 3px 8px black;*/
+        
+    }
+
+    #mainContainer{
+        font-family:'Sawarabi Mincho',arial;
+        display:block;
+        background-color: tan;
+        width:100%;
+        height: auto;
+        text-indent: 20px;
+        padding: 6px;
+        border-radius: 5px;
+    }
+    
