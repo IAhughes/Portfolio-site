@@ -64,3 +64,11 @@ header {
         padding: 6px;
         border-radius: 5px;
     }
+    #gridContainer{
+        display:grid;
+        position: relative;
+        grid-template-columns: auto auto auto; 
+    }
+    #aboutMe{
+        font-size: 20px;
+    }
