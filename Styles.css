@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 body {
     background-color: lightgrey;
 }
 #navBar{
     position: relative;
     background-color:rgb(133, 136, 146);
-    position: relative;
-    background-repeat: no-repeat;
-    height: 80px;
+    height: 90px;
     width: 100vw;
     left: 5px;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.377);
@@ -21,13 +20,12 @@ body {
     position: relative;
     grid-template-columns: auto auto;
     grid-column-gap:3px;
-    
     width:250px;
     height: auto;
     text-align: center;
     float:right;
-    padding-top: 10px;
-    /*background-color: blue;*/
+    bottom: -50px;
+    /*background-color: blue;*/ 
 }
 .nav {
     font-family: 'Sawarabi Mincho',Arial;
@@ -40,29 +38,15 @@ body {
     width: 100px;
     height:auto;
     
-    background-color:rgb(25, 17, 95);
+    background-color:rgb(212, 205, 142);
 }
-    #nav-grid:hover {
-        position: relative;
-        /*box-shadow:3px 3px 8px black;*/
-        
-    }
-
-    #mainContainer{
-        font-family:'Sawarabi Mincho',arial;
-        display:block;
-        background-color: tan;
-        width:100%;
-        height: auto;
-        text-indent: 20px;
-        padding: 6px;
-        border-radius: 5px;
-    }
-    #gridContainer{
-        display:grid;
-        position: relative;
-        grid-template-columns: auto auto auto; 
-    }
-    #aboutMe{
-        font-size: 20px;
-    }
+.nav:hover{
+ transform: scale(1.2) rotate(3deg);
+ box-shadow: 5px 5px 6px black;
+ font-family: 'Bitter',Arial;
+ border-left:solid blue 15px;
+ transition: all .5s;
+ cursor: pointer;
+}
+    
+ 
